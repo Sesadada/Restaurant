@@ -1,1 +1,1 @@
-console.log("serena");
+(()=>{console.log("serena"),console.log("help");const e=document.querySelectorAll("[data-tab-target]"),t=document.querySelectorAll("[data-tab-content]");e.forEach((a=>{a.addEventListener("click",(()=>{const c=document.querySelector(a.dataset.tabTarget);t.forEach((e=>{e.classList.remove("active")})),e.forEach((e=>{e.classList.remove("active")})),a.classList.add("active"),c.classList.add("active")}))}))})();

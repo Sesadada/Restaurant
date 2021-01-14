@@ -1,0 +1,104 @@
+body{
+    background-image: url("img/pexels-jv-buenconcejo-2371778.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+
+img{
+    padding: 20px 100px 20px 100px
+}
+h1{
+    
+    color: rgb(252, 248, 2);
+    font-size: 100px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(252, 248, 2);
+    font-size: 50px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 30px;
+}
+
+h4{
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  
+}
+
+.presentation{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 600px;
+    
+    background-color:  rgba(252, 252, 252, 0.6);
+    margin: auto;
+   
+}
+
+.prese{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 5, 5);
+    line-height: 25px;
+    padding: 18px 25px 12px 25px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.menu{
+    padding-left: 20px;
+  
+
+}
+
+
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+  
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .tab {
+    width: 33%;
+    cursor: pointer;
+    padding: 10px;
+    background-color:  rgba(155, 153, 153, 0.3);
+  }
+  
+  .tab.active {
+    background-color: rgb(252, 248, 2, 0.7);
+  }
+  
+  .tab:hover {
+    background-color:rgba(223, 219, 219, 0.5);
+  }
+  
+  .tab-content {
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 600px;
+    background-color:  rgba(252, 252, 252, 0.6);
+    margin: auto;
+    padding-bottom: 20px;
+  }
