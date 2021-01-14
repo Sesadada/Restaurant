@@ -1,1 +1,2 @@
-# Restaurant project from The Odin Project
+# Restaurant basic page built with webpack & modules
+# from The Odin Project
