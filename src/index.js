@@ -1,21 +1,13 @@
-console.log("serena")
-console.log("help")
+import importMenu from "./modules/menu.js"
+import importHistory from "./modules/history.js"
+import importAbout from "./modules/about.js"
+import {home,tabs} from "./modules/pageLoad.js"
 
-//tabs
 
-const tabs = document.querySelectorAll('[data-tab-target]')
-const tabContents = document.querySelectorAll('[data-tab-content]')
+home()
 
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    const target = document.querySelector(tab.dataset.tabTarget)
-    tabContents.forEach(tabContent => {
-      tabContent.classList.remove('active')
-    })
-    tabs.forEach(tab => {
-      tab.classList.remove('active')
-    })
-    tab.classList.add('active')
-    target.classList.add('active')
-  })
-})
+importHistory()
+importMenu()
+importAbout()
+
+tabs()
