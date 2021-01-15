@@ -38,7 +38,7 @@ h4{
     border-top-right-radius: 10px;
     width: 600px;
     
-    background-color:  rgba(252, 252, 252, 0.6);
+    background-color:  rgba(252, 252, 252, 0.9);
     margin: auto;
    
 }
@@ -89,7 +89,7 @@ h4{
   }
   
   .tab:hover {
-    background-color:rgba(223, 219, 219, 0.5);
+    background-color:rgba(187, 185, 185, 0.5);
   }
   
   .tab-content {
@@ -97,7 +97,7 @@ h4{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 600px;
-    background-color:  rgba(252, 252, 252, 0.6);
+    background-color:  rgba(252, 252, 252, 0.8);
     margin: auto;
     padding-bottom: 20px;
   }
