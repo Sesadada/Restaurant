@@ -21,6 +21,7 @@ function home (){
   
   history.classList.add("tab")
   history.textContent = "History"
+  history.style.backgroundColor = `rgb(${252}, ${248}, ${2}, ${0.7})`
   history.dataset.tabTarget = "#history"
   menu.classList.add("tab")
   menu.textContent = "Menu"
@@ -49,11 +50,15 @@ const tabs = () =>{
       const target = document.querySelector(tab.dataset.tabTarget)
       tabContents.forEach(tabContent => {
         tabContent.classList.remove('active')
+
       })
       tabs.forEach(tab => {
         tab.classList.remove('active')
+        tab.style.backgroundColor = `rgb(${155}, ${153}, ${153}, ${0.3})`
+
       })
       tab.classList.add('active')
+      tab.style.backgroundColor = `rgb(${252}, ${248}, ${2}, ${0.7})`
       target.classList.add('active')
     })
   })
